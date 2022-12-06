@@ -28,7 +28,9 @@ function App() {
         ) : (
           <>
             <Link to="/createpost"> Create Post </Link>
-            <button onClick={signUserOut}> Log Out</button>
+            <button className="log-out-google-btn" onClick={signUserOut}>
+              Log Out &#10162;
+            </button>
           </>
         )}
       </nav>

@@ -36,7 +36,7 @@ function Home({ isAuth }) {
                     }}
                   >
                     {" "}
-                    &#128473;
+                    &#10008;
                   </button>
                 )}
               </div>
